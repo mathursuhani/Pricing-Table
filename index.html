@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pricing Table</title>
+    <style>
+        .mytable{
+            width: 959px;
+            height: 667px;
+            margin: 25px auto;
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: center;
+        }
+        .mytable thead{
+            display: block;
+        }
+        .mytable tbody{
+            display: block;
+        }
+        .mytable tfoot{
+            display: block;
+        }
+        .common{
+            width: 159px;
+            height: 46px;
+            line-height: 46px;
+            color:#fff;
+            border-top-left-radius: 10px ;
+            border-top-right-radius: 10px;
+            text-shadow: 1px 1px 1px rbga(0,0,0,0.5);
+        }
+        .skyblue{
+            background-image: -webkit-linear-gradient(top,#3c8d8e,#306a76);
+        }
+        .green{
+            background-image: -webkit-linear-gradient(top,#60862f,#496c2a);
+        }
+        .yellow{
+            background-image: -webkit-linear-gradient(top,#caac4a,#a68214);
+        }
+        .orange{
+            background-image: -webkit-linear-gradient(top,#af7337,#92531e);
+        }
+        .maroon{
+            background-image: -webkit-linear-gradient(top,#83464d,#703632);
+        }
+        .a{
+            color: #35302c;
+        }
+        .a span{
+            font-size: 2em;
+            margin-right: 5px;
+        }
+        .common2{
+            width: 159px;
+            height: 32px;
+        }
+        .tal{
+            text-align: left ;
+        }
+        .gray{
+            background: #ececec ;
+        }
+        .white{
+            background: #f6f6f6;
+        }
+        .xyz{
+            width: 100%;
+            height: 100%;
+            background-color: #f0f0f0;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+        }
+        .h60{
+            height: 60px;
+        }
+        .mytable tfoot button{
+            width: 100px;
+            height: 29px;
+            border-radius: 0px;
+            border: none;
+            border: 1px solid #093b42;
+            text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+            color: #fff;
+        }
+        .mytable th,.mytable td{
+            border-right: 1px solid white;
+        }
+        .mytable tbody td{
+            border-bottom: 1px solid #ccc;
+        }
+        .mytable tfoot td{
+            border-bottom: 2px solid #323232;
+        }
+        .mytable tbody tr td:first-child{
+            padding-left: 10px;
+        }
+        .mytable thead tr:nth-child(2) th{
+            height: 71px;
+            background: #f0f0f0;
+        }
+    </style>
+</head>
+<body>
+    <table class="mytable" border="0" cellspacing="0" cellpadding="1">
+        <thead>
+            <tr>
+                <th><div class="common"></div></th>
+                <th><div class="common skyblue" >Starter</div></th>
+                <th><div class="common green">Basic</div></th>
+                <th><div class="common yellow">Professional</div></th>
+                <th><div class="common orange">Business</div></th>
+                <th><div class="common maroon">Premier</div></th>
+            </tr>
+            <tr>
+                <th style="background-color: #fff; width:159px !important"><div class="xyz" style="line-height:71px" >Choose a Plan</div></th>
+                <th><div class="a"><span>$9</span>/mo.</div></th>
+                <th><div class="a"><span>$19</span>/mo.</div></th>
+                <th><div class="a"><span>$29</span>/mo.</div></th>
+                <th><div class="a"><span>$39</span>/mo.</div></th>
+                <th><div class="a"><span>$49</span>/mo.</div></th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td class="common2 white tal">Disk Storage</td>
+                <td class="common2 white">10GB</td>
+                <td class="common2 white">50GB</td>
+                <td class="common2 white">100GB</td>
+                <td class="common2 white">500GB</td>
+                <td class="common2 white">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common2 tal gray">Monthly Bandwidth</td>
+                <td class="common2 gray">100GB</td>
+                <td class="common2 gray">500GB</td>
+                <td class="common2 gray">1000GB</td>
+                <td class="common2 gray">Unlimited</td>
+                <td class="common2 gray">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common2 tal white">Domains Names</td>
+                <td class="common2 white">1GB</td>
+                <td class="common2 white">10GB</td>
+                <td class="common2 white">Unlimited</td>
+                <td class="common2 white">Unlimited</td>
+                <td class="common2 white">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common2 tal gray">Subdomains</td>
+                <td class="common2 gray">10GB</td>
+                <td class="common2 gray">50GB</td>
+                <td class="common2 gray">Unlimited</td>
+                <td class="common2 gray">Unlimited</td>
+                <td class="common2 gray">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common2 tal white">Site Builder</td>
+                <td class="common2 white">10GB</td>
+                <td class="common2 white">50GB</td>
+                <td class="common2 white">100GB</td>
+                <td class="common2 white">500GB</td>
+                <td class="common2 white">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common2 tal gray">Backups</td>
+                <td class="common2 gray">10GB</td>
+                <td class="common2 gray">50GB</td>
+                <td class="common2 gray">100GB</td>
+                <td class="common2 gray">500GB</td>
+                <td class="common2 gray">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common2 tal white">CPANEL</td>
+                <td class="common2 white">10GB</td>
+                <td class="common2 white">50GB</td>
+                <td class="common2 white">100GB</td>
+                <td class="common2 white">500GB</td>
+                <td class="common2 white">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common2 tal gray">Email Accounts</td>
+                <td class="common2 gray">10GB</td>
+                <td class="common2 gray">50GB</td>
+                <td class="common2 gray">Unlimited</td>
+                <td class="common2 gray">Unlimited</td>
+                <td class="common2 gray">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common2 tal white">MySQL Databases</td>
+                <td class="common2 white">10GB</td>
+                <td class="common2 white">50GB</td>
+                <td class="common2 white">100GB</td>
+                <td class="common2 white">500GB</td>
+                <td class="common2 white">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common2 tal gray" >Setup Fee</td>
+                <td class="common2 gray">1*2GB</td>
+                <td class="common2 gray">5*2GB</td>
+                <td class="common2 gray">10*2GB</td>
+                <td class="common2 gray">50*2GB</td>
+                <td class="common2 gray">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common2 tal white">24/7 Support</td>
+                <td class="common2 white">10GB</td>
+                <td class="common2 white">50GB</td>
+                <td class="common2 white">100GB</td>
+                <td class="common2 white">500GB</td>
+                <td class="common2 white">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common2 tal gray">30-Days Money Back</td>
+                <td class="common2 gray">10GB</td>
+                <td class="common2 gray">50GB</td>
+                <td class="common2 gray">100GB</td>
+                <td class="common2 gray">500GB</td>
+                <td class="common2 gray">Unlimited</td>
+            </tr>
+            <tr>
+                <td class="common2 tal white">Templates</td>
+                <td class="common2 white">10GB</td>
+                <td class="common2 white">50GB</td>
+                <td class="common2 white">100GB</td>
+                <td class="common2 white">500GB</td>
+                <td class="common2 white">Unlimited</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <td class="common2" h60 gray></td>
+                <td class="common2" h60 gray><button class="skyblue">Sign Up</button></td>
+                <td class="common2" h60 gray><button class="green">Sign Up</button></td>
+                <td class="common2" h60 gray><button class="yellow">Sign Up</button></td>
+                <td class="common2" h60 gray><button class="orange">Sign Up</button></td>
+                <td class="common2" h60 gray><button class="maroon">Sign Up</button></td>
+            </tr>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
